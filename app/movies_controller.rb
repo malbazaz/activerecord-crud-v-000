@@ -60,7 +60,7 @@ def can_find_using_where_clause_and_be_sorted
       all_movies << m
     end
   end
-  all_movies.sort {|x,y| x.title <=> y.title}
+  all_movies.sort {|x,y| y.title <=> x.title}
 end
 
 def can_be_found_updated_and_saved
