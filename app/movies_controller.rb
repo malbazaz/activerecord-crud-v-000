@@ -57,10 +57,10 @@ def can_find_using_where_clause_and_be_sorted
   all_movies = []
   Movie.all.each do |m|
     if m.release_date > 2002
-      all_movies << m 
-    end 
+      all_movies << m
+    end
   end
-  all_movies 
+  all_movies
 end
 
 def can_be_found_updated_and_saved
